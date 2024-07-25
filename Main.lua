@@ -7,11 +7,7 @@ local Settings = {
       game.GetService(game, "Players").LocalPlayer:Kick("Flagged for Cheating.")
     end,
   },
-	
-  Webhooks = {
-    Enabled = false,
-  },
-	
+
   Limit = 300 -- How much memory is ALLOWED to be added. Ex: 300 = 300 MegaBytes before being flagged.
 }
 
@@ -23,10 +19,6 @@ while task.wait() do
       task.spawn(function()
         Settings.Callback.Callback()
       end)
-    end
-		
-    if Settings.Webhooks.Enabled then
-      break -- Break our loop, stops further detection from happening. User has ALREADY been flagged.
     end
   end
 end
