@@ -24,6 +24,9 @@ local Settings = {
 }
 ```
 
+### Reliability 🤝
+Not sure tbh, haven't tested too much into this. 🤷‍♂️
+
 ---
 ### Purpose ❤️
 Just to learn more for Anti Cheats and how they function.
