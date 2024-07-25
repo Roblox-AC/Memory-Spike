@@ -3,7 +3,7 @@ A singular **Local** file useful for measuring `Memory Spikes`, often caused wit
 
 ---
 ### Memory Spike 📈
-Detects when **over** 200 MB of RAM suddenly is being used.
+Flags when **over** X **(number)** MB of RAM suddenly is being used.
 
 **Actions On Flag**
 * **Instant Callbacks**
